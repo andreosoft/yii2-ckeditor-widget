@@ -24,7 +24,7 @@ class CKEditor extends InputWidget {
         $jsData .= $js;
         */
         $jsData = "CKEDITOR.replace($id);";
-        $view->registerJs($jsData);
+        $view->registerJS($jsData);
         Asset::register($view);
     }
 
